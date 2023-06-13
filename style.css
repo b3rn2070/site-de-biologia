@@ -1,0 +1,275 @@
+.bckgimg{
+  background-image: url(imagens/0aa62f5a7c404393ba7987a1e01d7313.jpg);
+   min-height: 500px;
+   background-attachment: fixed;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+.bckgimg2{
+    background-image: url(imagens/Estrelas.jpg);
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+.bckgimg3{
+  background-image: url(imagens/Screenshot_94.png);
+  min-height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+@font-face{
+  font-family: 'lostar-font';
+  src: url('fontes/BLACCS__.TTF') format('truetype');
+}
+
+h1 {
+    font-family: "Old English Text MT";
+    font-size: 60px;
+    color: white;
+    margin-left: 20%;
+    margin-right: 20%;
+    text-align: justify;
+
+}
+
+.text   {
+    font-size: 28px;
+    color: #ffff;
+    text-align: justify;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 10px;
+    text-align: justify;
+    font-family: "Times New Roman";
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-indent: 2em;
+
+}
+
+
+
+.bckgtxt{
+	  background-color: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    border-radius: 40px;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 3%;
+    
+	}
+
+
+a:hover{
+    color: #EBDE58;
+    font-size: 40px;
+    
+}
+
+
+.item_container_top{
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 100%;
+    height: 150px;
+    text-align: center;
+    margin-bottom: 20px;
+   
+}
+
+.item_container_bottom{
+    background-color:rgba(0, 0, 0, 0.6);
+    width: 100%;
+    height: 150px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.item_container_top a {
+    display: inline-block;
+    margin: 0 10px;
+    margin-top: 40px;
+    text-align: center;
+  }
+
+  .item_container_bottom a {
+    display: inline-block;
+    margin: 0 10px;
+    margin-top: 40px;
+  }
+  
+  body{
+    margin: 0px;
+  }
+
+  #link{
+    font-family: "Old English Text MT";    
+  }
+  
+.box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px 15px;
+  background-color: #ffff;
+  width: 340px;
+  height: 250px; 
+  border-radius: 15px;
+  border: 1px #0000;
+  position: relative;
+  transition: 150ms linear;
+
+}
+
+.box:hover{
+    height: 310px;
+    width: 410px;
+    transition-delay: 150ms;
+}
+
+#first_containner{
+  position: fixed;
+  bottom: 0;
+}
+
+#text_background_1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 160px;
+  padding: 50px;
+}
+
+
+.item_container_top h1{
+  text-align: center;
+  margin: 0;
+  padding: 37px;
+}
+
+.selection{
+  background-image: url(imagens/teoria-do-big-bang.jpg);
+  background-position: center;
+  
+}
+
+
+
+.box a{
+  font-family: "Old English Text Mt";
+  color: black;
+  opacity: 0;
+  font-size: 40px;
+}
+
+.box:hover a {
+  font-size: 50px;
+  transition: 150ms linear;
+  color: #AE46E5;
+  opacity: 1;
+  transition-delay: 150ms;
+  
+}
+
+#last-p-bb{
+  margin-bottom: 2em;
+}
+
+#last-p-bb{
+  margin-bottom: 2em;
+}
+
+img{
+  display: block;
+  margin: 0px auto;
+  border-radius: 10%;
+}
+
+#img_tema1{
+  margin-top: 3em;
+  height: 50%;
+  width: auto;
+}
+
+#tema2{
+  margin-top: 3em;
+}
+
+h5 {
+  text-align: justify;
+  color: #ffff;
+  font-size: 1.1em;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+#imgtema2{
+  margin-top: 3em;
+  width: 60%;
+  height: auto;
+}
+
+.legenda{
+  color:#c1c1c1;
+}
+
+#legendabn{
+  text-align: center;
+  margin: 0%;
+  font-size: 16px;
+}
+
+#container-ref{
+  bottom: 0;
+  position: fixed;
+}
+
+.ref{
+  font-size: 28px;
+    color: #ffff;
+    font-family: "Times New Roman";
+    margin-left: 10%;
+    margin-right: 10%;
+
+}
+
+#leg_tema1 {
+  width: 100%;
+  height: auto;
+  display: flex;
+}
+
+#leg_txt_bb{
+  margin: 0%;
+  font-size: 16px;
+  text-align: center;
+}
+
+#leg_tema2{
+  text-align: center;
+  font-size: 16px;
+  margin: 0;
+}
+
+#leg_sobre{
+  text-align: center;
+  margin: 0%;
+  font-size: 16px;
+}
+
+#rodape{
+  text-align: center;
+  margin-bottom: 0%;
+}
+
+#relaciones{
+  text-align: center;
+}
