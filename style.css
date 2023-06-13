@@ -119,11 +119,13 @@ a:hover{
   justify-content: center;
   align-items: center;
   margin: 0px 15px;
-  background-color: #ffff;
+  background-color: rgba(0, 0, 0, 0.6);;
   width: 340px;
   height: 250px; 
   border-radius: 15px;
-  border: 1px #0000;
+  border-color: #4B2E1D;
+  border-width: 3px;
+  border-style: solid;
   position: relative;
   transition: 150ms linear;
 
@@ -133,6 +135,7 @@ a:hover{
     height: 310px;
     width: 410px;
     transition-delay: 150ms;
+    background-color: rgba(31, 87, 26, 0.7);
 }
 
 #first_containner{
@@ -173,7 +176,7 @@ a:hover{
 .box:hover a {
   font-size: 50px;
   transition: 150ms linear;
-  color: #AE46E5;
+  color: #B7B7B7;
   opacity: 1;
   transition-delay: 150ms;
   
